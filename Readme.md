@@ -34,7 +34,7 @@ The system features traditional text search using SQLite FTS5, making it powerfu
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/MemorieDen.git
+   git clone https://github.com/Coriana/MemorieDen.git
    cd MemorieDen
    ```
 
