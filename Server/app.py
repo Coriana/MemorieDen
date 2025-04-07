@@ -1,5 +1,5 @@
 # app.py
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from sqlalchemy.orm import Session
 from database import SessionLocal
 from initialize_db import init_db
@@ -44,6 +44,11 @@ def get_or_create_user(db: Session, user_id: str, meta=None):
         db.commit()
         db.refresh(user)
     return user
+
+# Web Interface Route
+@app.route("/", methods=["GET"])
+def index():
+    return render_template('index.html')
 
 # API Endpoints
 

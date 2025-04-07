@@ -1,0 +1,82 @@
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+#memoriesList .memory-card {
+    border-left: 4px solid #0d6efd;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+#memoriesList .memory-card:hover {
+    background-color: #f1f3f5;
+}
+
+.memory-content {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    white-space: pre-wrap;  /* Preserve line breaks and wrap text */
+    word-break: break-word; /* Break long words if needed */
+}
+
+.memory-edit-textarea {
+    resize: both;
+    min-height: 100px;
+    max-height: 80vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.memory-metadata {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.memory-actions {
+    margin-top: 0.5rem;
+}
+
+.user-item.active {
+    background-color: #0d6efd !important;
+}
+
+#historyContent .history-item {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#historyContent .history-item:last-child {
+    border-bottom: none;
+}
+
+.history-timestamp {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.search-highlight {
+    background-color: #ffd700;
+    padding: 0 2px;
+}
+
+.memory-score {
+    font-size: 0.75rem;
+    color: #28a745;
+}
+
+#userList .list-group-item {
+    cursor: pointer;
+}
